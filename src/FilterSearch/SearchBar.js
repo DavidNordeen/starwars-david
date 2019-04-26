@@ -10,7 +10,7 @@ class SearchBar extends Component {
          this.props.handleSearch(e.target.searchInput.value)
         }}
       >
-        <label htmlFor="search">Search Name</label>
+        <label htmlFor="search"></label>
         <input type="text" id="search" name="searchInput" placeholder="Skywalker" />
         <button type="submit" className="search-button">Search</button>
       </form>

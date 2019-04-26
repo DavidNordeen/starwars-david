@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 class ResultList extends Component {
   generateList() {
     let resultList = [];
-    console.log(this.props);
     if (this.props.results.results) {
       resultList = this.props.results.results.map((results, key) => {
         console.log(results)
@@ -39,7 +38,6 @@ class ResultList extends Component {
       })
     }
 
-    console.log(resultList)
     return resultList;
   }
 
